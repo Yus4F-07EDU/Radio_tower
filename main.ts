@@ -103,7 +103,7 @@ let col = 0
 let unlocked = false
 let message = 0
 message = 1
-let Group = 33
+let Group = 44
 radio.setGroup(Group)
 basic.showString("Radio Connected")
 basic.pause(500)
