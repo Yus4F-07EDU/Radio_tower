@@ -37,7 +37,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     } else if (receivedNumber == 4) {
         // HACK SIMULATION (The hacking part isn't real, you can press the reset button to clear it)
         basic.showString("!!! HACKED !!!")
-        for (let index = 0; index < 500; index++) {
+        for (let index = 0; index < 100; index++) {
             for (let y = 0; y <= 4; y++) {
                 for (let x = 0; x <= 4; x++) {
                     if (Math.randomBoolean()) {
